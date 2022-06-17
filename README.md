@@ -1,37 +1,36 @@
 <div align="center">
    <a href="https://github.com/nico-mayer/vide">
-    <img src="src/assets/logo.svg" alt="Logo" width="200">
+    <img src="/public/logo.svg" alt="Logo" width="200">
   </a>
-  <h2><b>Vide</b></h2>
+  <h2><b>Vide + <img src="https://api.iconify.design/logos:nuxt-icon.svg" alt="nuxtlogo" width="27"></b></h2>
 </div>
 
 <p align='center'>
-Vue3 + Vite Starter Template, super leightweight Targeted for beginners
+This is the <a href="https://github.com/nuxt/framework">Nuxt 3</a> version of <a href="https://github.com/Nico-Mayer/vide">Vide</a>.
 </p>
 
 <br>
 
 <p align='center'>
-The Goal was to create a super lightweight Vite Starter template with as few dependencies as possible, but at the same time provide a good amount of utility.
-To deliver a clean entry point for newcomers and advanced Vue + Vite users.
+The Goal was to create a super lightweight Nuxt3 Starter template with
+        as few dependencies as possible, but at the same time provide a good
+        amount of utility. To deliver a clean entry point for newcomers and
+        advanced Nuxt 3 users.
 </p>
 
 <br>
 
 <p align='center'>
-<a href="https://vide-iota.vercel.app/" target="_blank">Live Demo</a>
+<a href="https://vide-nuxt.vercel.app/" target="_blank">Live Demo</a>
 </p>
 
 <br>
 
-### You want SSR?
-
-Check out [videNuxt](https://github.com/Nico-Mayer/videNuxt) - Nuxt 3 Version of Vide
 
 ## Get Started
 
 ```bash
-npx degit nico-mayer/vide my-vide-app
+npx degit nico-mayer/videNuxt my-vide-app
 
 cd my-vide-app
 
@@ -44,13 +43,13 @@ yarn dev # or npm run dev to start the development server
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite)
+- <img src="https://api.iconify.design/logos:nuxt-icon.svg" alt="nuxtlogo" width="20"> [Nuxt 3](https://v3.nuxtjs.org/)
+   - 🗂 [File based routing]
+   - 📦 Components auto importing
 
 - 🌙 Easy Custumizable Dark Mode
 
-- 🗂 [File based routing]
 
-- 📦 Components auto importing
 
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
 
@@ -73,10 +72,6 @@ yarn dev # or npm run dev to start the development server
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
 - [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
-### Plugins
-
-- [Vue Router](https://github.com/vuejs/vue-router)
-  - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
 
 ### Coding Style
 
@@ -102,14 +97,6 @@ yarn build
 ```
 
 And you will see the generated files in `dist` that are ready to be served.
-
-<br>
-## Roadmap
-
-- [x] Implement File based routing
-- [x] Add unoCSS with pure css icons
-- [ ] Write guide for custumizing dark mode
-- [ ] Improve about page content
 
 <br>
 
