@@ -1,0 +1,13 @@
+/* Global Css */
+
+html {
+  background-color: #ffffff;
+  color: #374151;
+}
+body {
+  margin: 0;
+}
+html.dark {
+  background-color: #22272e;
+  color: #e0edee;
+}
