@@ -19,5 +19,9 @@
     "@unocss/transformer-variant-group": "^0.39.0",
     "nuxt": "3.0.0-rc.4",
     "unocss": "^0.39.0"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.0.1",
+    "@unocss/preset-typography": "^0.39.3"
   }
 }
